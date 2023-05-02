@@ -1,0 +1,242 @@
+/* Toggles */
+.notion-toggle {
+	@apply bg-base-100 collapse collapse-arrow border-b border-base-300;
+}
+.notion-toggle-title {
+	@apply collapse-title hover:text-accent px-0;
+}
+.notion-toggle-content {
+	@apply collapse-content;
+}
+/* Richtexts */
+.notion-rich-text {
+}
+.notion-text-bold {
+	@apply font-bold;
+}
+.notion-text-italic {
+	@apply italic;
+}
+.notion-text-strikethrough {
+	@apply line-through;
+}
+.notion-text-underline {
+	@apply underline;
+}
+.notion-text-code {
+	@apply font-mono font-normal bg-base-200 rounded py-0.5 px-1;
+}
+.notion-text-red {
+	@apply text-red-500;
+}
+.notion-text-pink {
+	@apply text-pink-500;
+}
+.notion-text-purple {
+	@apply text-purple-500;
+}
+.notion-text-blue {
+	@apply text-blue-500;
+}
+.notion-text-green {
+	@apply text-green-500;
+}
+.notion-text-yellow {
+	@apply text-yellow-500;
+}
+.notion-text-orange {
+	@apply text-orange-500;
+}
+.notion-text-brown {
+	@apply text-amber-500;
+}
+.notion-text-gray {
+	@apply text-gray-500;
+}
+.notion-bg-red {
+	@apply bg-red-100 dark:bg-red-900;
+}
+.notion-bg-pink {
+	@apply bg-pink-100 dark:bg-pink-900;
+}
+.notion-bg-purple {
+	@apply bg-purple-100 dark:bg-purple-900;
+}
+.notion-bg-blue {
+	@apply bg-blue-100 dark:bg-blue-900;
+}
+.notion-bg-green {
+	@apply bg-green-100 dark:bg-green-900;
+}
+.notion-bg-yellow {
+	@apply bg-yellow-100 dark:bg-yellow-900;
+}
+.notion-bg-orange {
+	@apply bg-orange-100 dark:bg-orange-900;
+}
+.notion-bg-brown {
+	@apply bg-amber-100 dark:bg-amber-900;
+}
+.notion-bg-gray {
+	@apply bg-gray-100 dark:bg-gray-900;
+}
+
+/* Headings */
+.notion-heading-1 {
+	@apply mt-9;
+}
+.notion-heading-2 {
+}
+.notion-heading-3 {
+}
+
+/* To-dos */
+.notion-to-do {
+	@apply form-control divide-y;
+}
+.notion-to-do-label {
+	@apply label cursor-pointer justify-start gap-4;
+}
+.notion-to-do-label-text {
+	@apply label-text;
+}
+.notion-to-do-label-text-checked {
+	@apply line-through text-neutral;
+}
+.notion-to-do-checkbox {
+	@apply checkbox;
+}
+/* Subpages */
+.notion-subpage {
+	@apply hover:text-accent;
+}
+.notion-subpage-text {
+}
+/* Tables */
+.notion-table {
+	@apply table table-compact;
+}
+.notion-table-body {
+}
+.notion-table-tr {
+}
+.notion-table-td {
+}
+
+/* Notion link */
+.notion-link {
+	@apply link cursor-pointer hover:text-accent;
+}
+
+/* Collumns */
+.notion-column-list {
+	@apply gap-6 grid;
+}
+.notion-column {
+}
+
+/* List items */
+.notion-list-item {
+	/* @apply flex pl-4; */
+}
+
+/* Quotes */
+.notion-quote {
+	@apply px-6 py-4;
+}
+
+/* Code */
+.notion-code pre {
+	@apply mb-1 pb-0;
+}
+.notion-caption {
+	@apply text-xs font-normal;
+}
+.notion-image-caption {
+	@apply text-xs font-normal mt-1 text-center;
+}
+
+/* Dividers */
+.notion-divider {
+}
+
+/* Dividers */
+.notion-link-to-page {
+	@apply link flex items-center gap-4 p-2 hover:text-accent bg-base-100;
+}
+.notion-link-to-page-icon {
+	@apply w-10;
+}
+.notion-link-to-page-text {
+	@apply text-xl flex;
+}
+
+/* Callouts */
+.notion-callout {
+	@apply flex p-4 rounded my-2 border;
+}
+.notion-callout-icon {
+	@apply mr-4;
+}
+.notion-callout-text {
+	@apply flex-1;
+}
+
+/* Mentions */
+.notion-mention {
+}
+.notion-mention-user {
+	@apply text-primary;
+}
+.notion-date {
+	@apply text-secondary;
+}
+.notion-mention-page {
+	@apply link cursor-pointer hover:text-accent;
+}
+
+/* Equations */
+.notion-equation {
+}
+
+/* Image */
+.notion-image {
+	@apply my-4;
+}
+
+/* Table of contents */
+.notion-table-of-contents {
+	@apply bg-base-100 my-4;
+}
+.notion-table-of-contents-list {
+	@apply border p-0 m-0 rounded;
+}
+.notion-table-of-contents-list-item {
+	@apply list-none flex;
+}
+.notion-table-of-contents-list-item-h1 {
+	@apply pl-4 no-underline font-bold;
+}
+.notion-table-of-contents-list-item-h2 {
+	@apply pl-8 no-underline font-normal;
+}
+.notion-table-of-contents-list-item-h3 {
+	@apply pl-12 no-underline font-light;
+}
+.notion-table-of-contents-list-item-link {
+	@apply hover:bg-base-200 flex-1 rounded py-2;
+}
+
+/* Notion block */
+.notion-block {
+	@apply mb-2;
+}
+
+/* Notion synced block */
+.notion-synced-block {
+}
+
+/* Notion unsupported */
+.notion-unsupported {
+	@apply mockup-code;
+}
